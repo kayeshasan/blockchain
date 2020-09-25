@@ -1,0 +1,409 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+select{
+    background: transparent;
+    appearance: none;
+    color: white;
+}
+
+
+/* navigation starts here */
+
+.navbutton{
+    margin-left: 50px !important;
+    position: absolute;
+    right: 15px;
+}
+.navbutton .btn{
+    padding: 5px 20px !important;
+    font-weight: bold;
+    background:  #0c6cf2 !important;
+    color: #fff !important;
+}
+
+#ex{
+    color: #00b6c7 !important;
+}
+
+.navbar .btn1{
+    
+    background: #2a3448 !important;
+    
+}
+.navbar{
+    background: #040d25 !important;
+    transition: 0.3s !important;
+}
+
+.rnav{
+    display: none;
+}
+
+.navbar img{
+    width: 30px;
+    height:30px;
+}
+.navbutton a{
+    margin: 10px 5px;
+    padding: 10px 22px;
+    font-weight: bold;
+}
+ul li{
+    color: #fff !important;
+}
+
+ul li:hover{
+    border-bottom: 1px solid #00b6c7;
+}
+
+.header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap !important;
+    padding:100px 0 50px 0;
+    justify-content: center;
+    position: relative;
+}
+.header::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    right:0;
+    bottom:0;
+    background:#040d25;
+    z-index: -1;
+}
+.header-text{
+    width: 70%;
+    height:auto;
+    padding: 60px 100px;
+}
+
+.header h1{
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header-text h2{
+    font-size: 2rem;
+    color:grey;
+    font-weight: 500;
+}
+.header-img{
+    width: 30%;
+    overflow: hidden;
+}
+.header-img img{
+    overflow: hidden;
+    height: 30rem;
+}
+
+.header-text button{
+    padding: 20px 60px;
+    background: #0c6cf2;
+    color:#fff;
+    font-weight: bold;
+    font-size: 1rem;
+    filter: brightness(75%);
+    border-radius: 10px;
+}
+
+.cards{
+    width: 100%;
+    height:100vh;
+    background: #040d25;
+}
+
+#row1{
+    padding-top: 100px;
+}
+
+.card{
+    background: transparent !important;
+    border:none !important;
+}
+
+.card i{
+    color:#00b6c7;
+    margin-bottom: 15px;
+}
+
+.card-title{
+    color: #fff;
+    font-weight: 600;
+}
+
+.card-text{
+    color: grey;
+}
+
+.trade{
+    width: 100%;
+    height: auto;
+    padding: 100px 0 50px 40px;
+    background: #040d25;
+    position: relative;
+}
+
+#sp{
+    color: #19ca39;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+
+.trade-p h4{
+    color:#fff;
+    font-weight: 600;
+}
+.trade-p p{
+    color: grey;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.trade-p h5{
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.trade-img{
+    max-width: 1000px !important;
+    height:auto;
+    padding-left: 0 !important;
+    padding-right: 40px !important;
+    overflow: hidden;
+    position: absolute;
+    left: -98%;
+    bottom: 0;
+    right: 40px;
+    margin:0 !important;
+}
+.row{
+    overflow: hidden;
+}
+.trade button{
+    padding: 10px 30px;
+    background: #0c6cf2;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #fff;
+    border-radius: 10px;
+    border-color: rgb(12, 108, 242);
+    filter: brightness(75%);
+}
+
+.wallet{
+    width: 100%;
+    height: auto;
+    padding: 100px 0 50px 40px;
+    background: #040d25;
+    position: relative; 
+}
+
+.wallet-p{
+    color:#fff;
+    font-weight: 600;
+}
+
+.wallet p{
+    color: grey;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.wallet h5{
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+.wallet button{
+    padding: 10px 30px;
+    background: #0c6cf2;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #fff;
+    border-radius: 10px;
+    border-color: rgb(12, 108, 242);
+    filter: brightness(75%);
+}
+
+.wallet img{
+    height: 520px;
+}
+
+.row1, .row2{
+    padding:100px 60px 30px 80px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+
+.row1 h5{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.row2 h5{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.row1,.row2 p{
+    font-size: 1.3rem;
+}
+
+.card a{
+    padding: 10px 40px;
+    background: #0c6cf2;
+    border-radius: 10px;
+    filter: brightness(75%);
+    font-size: 1rem;
+    font-weight: 700;
+    border-color: rgb(12, 108, 242);
+}
+
+.cards-c{
+    height: auto;
+    background: #040d25;
+}
+
+.exchange{
+    width: 100%;
+    height: auto;
+    padding: 200px 0 150px 0;
+    background: #040d25;
+}
+.exchange p{
+    font-size: 1.1rem;
+    color:#fff;
+    letter-spacing: 6px;
+}
+
+.exchange h1{
+    color:#fff;
+    font-weight: bold;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+
+.exchange button{
+    padding: 15px 30px;
+    background: #42f1b8;
+    color: #000;
+    margin-top: 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.footer{
+    width:100%;
+    background: #040d25;
+}
+
+.footer li{
+    list-style: none;
+    margin-bottom: 5px;
+    color:#fff !important;
+}
+
+.footer ul{
+    margin-top: 20px;
+}
+
+.footer p{
+    color: #fff;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.footer p{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.applink img{
+    width: 150px;
+    height: auto;
+}
+.apk{
+    position: absolute;
+    right: 10px;
+}
+.ios{
+    position:absolute;
+    right: 170px;
+}
+.footer-end{
+    margin-left: 40px;
+}
+
+.footer-end p{
+    font-size: 1.2rem;
+}
+
+
+@media (max-width: 768px){
+    .header{
+        flex-direction: column;
+    }
+    .header-text{
+        font-size: 1rem;
+        width: 100%;
+    }
+    .header-text button{
+        padding: 15px 6px;
+        font-size: 14px;
+    }
+    .header-img{
+        width: 100%;
+        height: auto;
+    }
+    #block{
+        display: none !important;
+    }
+    .cards{
+        height: auto;
+    }
+    .row1, .row2{
+        padding:10px;
+        margin-left: 10px;
+        text-align: center;
+    }
+    .exchange button{
+        width: 80%;
+        line-height: 1rem;
+        font-weight: 700;
+        font-size: 12px;
+    }
+
+    .footer{
+        height: auto;
+    }
+    .cards-c button{
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    
+}

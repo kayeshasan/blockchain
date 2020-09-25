@@ -1,0 +1,336 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+select{
+    appearance: none;
+    background: transparent;
+    height: 2rem;
+    color: #0c6cf2;
+    border-radius: none;
+}
+
+/* navigation starts here */
+
+.navbutton{
+    margin-left: 50px !important;
+    position: absolute;
+    right: 15px;
+}
+.navbutton .btn{
+    padding: 5px 20px !important;
+    font-weight: bold;
+    background:  #0c6cf2 !important;
+    color: #fff !important;
+}
+
+.navbar .btn1{
+    
+    background: #0e828c !important;
+    
+}
+.navbar{
+    background: #121d33 !important;
+}
+
+.rnav{
+    display: none;
+}
+
+.navbar img{
+    width: 30px;
+    height:30px;
+}
+.navbutton a{
+    margin: 10px 5px;
+    padding: 10px 22px;
+    font-weight: bold;
+}
+
+.header{
+    width: 100%;
+    margin: 50px 60px;
+    display: flex;
+}
+
+.header-div-left{
+    width: 50%;
+}
+
+.header-div-right{
+    width: 50%;
+}
+
+.header-div-right input{
+    width: 20rem;
+    height: 3rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.header-div-right input:before{
+    content: '';
+    position: absolute;
+    background: url('/images/search.png');
+    top: 5px;
+    left: 5px;
+    right: 80%;
+    bottom: 5px;
+}
+
+.header-div-right select{
+    position: absolute;
+    right: 20px;
+    height: 3rem;
+    background: transparent;
+}
+
+.header-div-left a{
+    color: grey;
+    font-size: 1.5rem;
+}
+
+.btc{
+    width: 48px;
+    line-height: 48px;
+    text-align: center;
+    background-color: #f7931a;
+    color:#fff;
+    border-radius: 50%;
+}
+
+.later-header{
+    width: 100%;
+    margin-bottom: 100px !important;
+}
+
+.later{
+    width: 100%;
+}
+
+.later img{
+    width: 100%;
+}
+
+.row select{
+    position: absolute;
+    right: 30px;
+}
+
+.row h4{
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.price button{
+    padding: 1rem 1.8rem;
+    color: #0c6cf2;
+    font-size: 1rem;
+    font-weight: bold;
+    background: transparent;
+    border: 1px solid grey;
+}
+
+.price button i{
+    color: #0c6cf2;
+}
+
+.price{
+    width:100%;
+    margin-top: 200px !important;
+}
+
+.cards{
+    width: 100%;
+    margin-top: 200px !important;
+}
+
+.card-title h5{
+    font-weight: bold !important;
+    color: #000;
+    font-size: 1rem;
+}
+
+.card-body p{
+    color: grey;
+    font-size: 1.1rem;
+}
+
+.card-body button{
+    font-weight: 900;
+}
+#i1{
+    color: #0c6cf2;
+}
+
+#i2{
+    color: #6cd0d9;
+}
+
+.card-header{
+    background: transparent !important;
+    border: none;
+}
+
+.cards .card{
+    border: none !important;
+}
+.bangon{
+    width: 100%;
+    margin-top: 100px !important;
+}
+
+.bangon .row{
+    width: 100%;
+    height: auto;
+}
+
+.puchki{
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+}
+
+.last{
+    width: 100%;
+    height: 163.5px;
+    margin-top: 100px;
+    display: flex;
+   
+}
+.empty{
+    width: 70%;
+    height: 100%;
+}
+.rest{
+    width: 30%;
+    height: 163.5px;
+    background: #121d33;
+    line-height: 163.5px;
+}
+
+.footer{
+    width: 100%;
+    height:60vh;
+}
+
+.footer li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.footer ul{
+    margin-top: 20px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.footer p{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.applink img{
+    width: 150px;
+    height: auto;
+}
+.apk{
+    position: absolute;
+    right: 10px;
+}
+.ios{
+    position:absolute;
+    right: 170px;
+}
+.footer-end{
+    margin-left: 40px;
+}
+
+.footer-end p{
+    font-size: 1.2rem;
+}
+
+
+@media(max-width:768px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0 !important;
+    }
+    #exp{
+        display: none;
+    }
+    .header-div-right{
+        width: 100%;
+        display: flex;
+        margin-top:40px;
+    }
+    .header-div-right input{
+        width: 70%;
+        padding-left: 20px;
+    }
+    .header-div-right select{
+        width: 20%;
+    }
+
+    .header-div-left{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .header-div-left i{
+        margin-right: 10px;
+        margin-top: 18px !important;
+    }
+    .footer-end{
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .last{
+        flex-direction: column;
+        background: #121d33;
+        justify-content: center;
+        align-items: center;
+    }
+    .rest{
+        width: 100%;
+        height: 50px;
+        line-height: 50px !important;
+        text-align: center;
+        
+    }
+    .empty{
+        width: 100%;
+        margin:0 !important;
+        
+    }
+
+    .puchki{
+        bottom: -70px;
+        right: 30%;
+    }
+
+   .rnav{
+       display: inline-block !important;
+   }
+   .navbutton{
+       display: none;
+   }
+   .later-header .hudai{
+       display: none;
+   }
+
+   .rest button{
+       margin-bottom: 30px;
+   }
+}

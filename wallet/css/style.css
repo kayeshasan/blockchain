@@ -1,0 +1,347 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none !important;
+}
+li{
+    list-style: none;
+}
+
+/* navigation starts here */
+
+.navbutton{
+    margin-left: 50px !important;
+    position: absolute;
+    right: 15px;
+}
+.navbutton .btn{
+    padding: 5px 20px !important;
+    font-weight: bold;
+    background:  #0c6cf2 !important;
+    color: #fff !important;
+}
+
+.navbar .btn1{
+    
+    background: #2a3448 !important;
+    
+}
+.navbar{
+    background: #121d33 !important;
+}
+
+
+.navbar img{
+    width: 30px;
+    height:30px;
+}
+.navbutton a{
+    margin: 10px 5px;
+    padding: 10px 22px;
+    font-weight: bold;
+}
+/* navigation part ends here */
+
+.header{
+    width: 100%;
+    height: 85vh;
+}
+.row{
+    padding-top: 150px;
+}
+.header h1{
+    font-size: 2.2rem;
+}
+.header p{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: grey;
+}
+.header button{
+    width: 320px;
+    line-height: 50px;
+    background: #0c6cf2;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+/* body div starts here */
+
+.body-div{
+    width: 100%;
+    height: auto;
+    background:#2a3448;
+    padding-top: 80px !important;
+}
+.body-div h1{
+    font-size: 2.2rem;
+    color:#fff;
+}
+
+.body-div p{
+    font-size: 1.2rem;
+    color: grey;
+}
+.body-div button{
+    width: 150px;
+    line-height: 35px;
+    font-size: 1.2rem;
+    color: #fff;
+    background: #0c6cf2;
+    border-radius: 10px;
+}
+
+/* security section starts here */
+.security{
+    width: 100%;
+    height: 85vh;
+    background: #f0f2f7;
+}
+.first-column{
+    width: 440px;
+    height:365px;
+    padding: 40px 80px 0 80px;
+    background: #fff;
+    margin-left:40px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+
+.first-column h3{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.first-column p{
+    color:grey;
+}
+
+.first-column button{
+    width: 120px;
+    line-height: 30px;
+    border: 1.5px solid #011641;
+    color: #011641;
+    background: transparent;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600px;
+}
+
+.inner-div .icons{
+    color: grey;
+    width:40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    line-height: 40px;
+    
+}
+#highlighted-icon{
+    color: #fff;
+    width:40px;
+    height: 40px;
+    background: #011641;
+    border-radius: 50%;
+    line-height: 40px;
+}
+
+.inner-div li{
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+#highlighted-list{
+    color:#011641;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+/* crypto wallet section starts here */
+
+.crypto-wallet{
+    width: 100%;
+    height: 80vh;
+    background: #011641;
+}
+.crypto{
+    padding: 80px 0;
+}
+
+.crypto i{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color:#fff;
+    background: #00522c;
+    line-height: 80px;
+}
+.crypto h1{
+    font-size: 2.2rem;
+    color:#fff;
+    font-weight: 700;
+}
+
+.crypto p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color:grey;
+    margin:15px 30px;
+}
+
+.crypto button{
+    width:160px;
+    line-height: 35px;
+    background: transparent;
+    border: 2px solid #fff;
+    color:#fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+/* swap starts here */
+
+.swap{
+    width:100%;
+    height:auto;
+    background: #121d33;
+}
+.swap h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:#fff;
+}
+.swap p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color:grey;
+}
+.swap button{
+    width: 150px;
+    line-height: 35px;
+    font-size: 1.2rem;
+    color: #fff;
+    background: #0c6cf2;
+    border-radius: 10px;
+}
+
+/* applink section starts here */
+.applink{
+    width: 100%;
+    height: 50vh;
+}
+.app-div{
+    padding-top: 90px;
+    margin:0 100px;
+}
+.app-div h1{
+    font-weight: 700;
+    color:#000;
+    font-size: 2.5rem;
+}
+.app-div p{
+    font-size: 1.7rem;
+    color:grey;
+    font-weight: 400;
+}
+.applink-img {
+    padding-top: 40px;
+}
+.applink-img img{
+    margin-right: 5px;
+}
+/* footer starts here */
+.footer{
+    width: 100%;
+    height:60vh;
+}
+
+.footer li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.footer ul{
+    margin-top: 20px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.footer p{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.applink img{
+    width: 150px;
+    height: auto;
+}
+.apk{
+    position: absolute;
+    right: 10px;
+}
+.ios{
+    position:absolute;
+    right: 170px;
+}
+.footer-end{
+    margin-left: 40px;
+}
+
+.footer-end p{
+    font-size: 1.2rem;
+}
+
+/* media queries */
+
+@media(max-width: 768px){
+    .header{
+        height:auto;
+    }
+    .header button{
+        width: 190px;
+        line-height: 20px;
+    }
+    .body-div{
+        height: auto;
+    }
+    .security{
+        width: 100%;
+        height:auto;
+        margin:0;
+    }
+    .first-column{
+        width: auto;
+        height: auto;
+        padding: 10px 0;
+        background: transparent;
+    }
+    .swap{
+        height: auto;
+    }
+    .crypto-wallet{
+        height: auto;
+    }
+    .applink{
+        height: 100vh;
+    }
+    .footer-end{
+        display: flex;
+        flex-direction:column;
+    }
+    
+    .navbar ul{
+        text-align: center;
+    }
+    
+    .navbutton{
+        display: none;
+    }
+    .rnav{
+        display: inline-block!important;
+    }
+}

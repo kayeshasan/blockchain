@@ -1,0 +1,375 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+select{
+    apperance: none;
+    background: transparent;
+}
+
+/* navigation starts here */
+
+.navbutton{
+    margin-left: 50px !important;
+    position: absolute;
+    right: 15px;
+}
+.navbutton .btn{
+    padding: 5px 20px !important;
+    font-weight: bold;
+    background:  #0c6cf2 !important;
+    color: #fff !important;
+}
+
+.navbar .btn1{
+    
+    background: #2a3448 !important;
+    
+}
+.navbar{
+    background: #121d33 !important;
+}
+
+.rnav{
+    display: none;
+}
+
+.navbar img{
+    width: 30px;
+    height:30px;
+}
+.navbutton a{
+    margin: 10px 5px;
+    padding: 10px 22px;
+    font-weight: bold;
+}
+/* navigation part ends here */
+
+
+.header{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    background: #121d33;
+    z-index:-1;
+}
+
+.header img{
+    position: absolute;
+    z-index: -9;
+    width: 100%;
+    bottom:0;
+}
+
+.header-div{
+    width: 100%;
+    padding-top: 120px;
+}
+
+.header-div h1{
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header-div p{
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color:#fff;
+}
+
+.header-div a{
+    text-decoration: none;
+    padding: 20px 40px;
+    background: #0c6cf2;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.header-div img{
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+/* rating strats here */
+
+.price-chart{
+    margin-left: 60px;
+    margin-top: -60px;
+}
+
+.wallet{
+    width: 100%;
+    height:100vh;
+}
+
+.wallet h1{
+    font-size: 2rem;
+}
+
+.wallet-buttons a{
+    margin: 20px 0 !important;
+    text-decoration: none;
+}
+.wallet-button{
+    text-decoration: none;
+    padding: 12px 30px;
+    background: #0c6cf2;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.wallet-links a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:#000;
+    text-decoration: none;
+}
+
+/* exchange section starts here */
+
+
+.exchange{
+    width: 100%;
+    height:100vh;
+    position: relative;
+    z-index: 1000;
+}
+
+.exchange h1{
+    font-size: 2rem;
+}
+
+.ex-buttons a{
+    margin: 20px 5px !important;
+    text-decoration: none;
+
+}
+.ex-button{
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    background:#0e828c;
+    text-decoration: none;
+    padding: 12px 30px;
+}
+
+.ex-links a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:#000;
+    text-decoration: none;
+}
+
+/* explorer section starts here */
+.explorer{
+    width:100%;
+    height:100vh;
+}
+.explorer h1{
+    font-size: 2rem;
+}
+
+.exp-buttons a{
+    margin: 20px 5px !important;
+    text-decoration: none;
+
+}
+.exp-button{
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    background: #0c6cf2;
+    text-decoration: none;
+    padding: 12px 30px;
+}
+
+.exp-links a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:#000;
+    text-decoration: none;
+}
+
+.explorer img{
+   width: 500px;
+   height: 400px;
+}
+
+/* last section starts here */
+
+.last-section{
+    width:100%;
+    height: auto;
+    background: #121d33;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+}
+#hero{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    overflow: hidden !important;
+    top:0px;
+    left: 0px;
+    z-index: 0;
+    padding: 0;
+    
+}
+
+.last-section-div{
+    padding-top: 80px;
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.last-section-div h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color:#fff;
+}
+.last-btn{
+    margin-top:50px;
+}
+.last-btn a{
+    text-decoration: none;
+    padding: 18px 40px;
+    background: #0c6cf2;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+.last-section-div img{
+    width: 400px;
+    height: 448px;
+    position: relative;
+}
+
+
+
+/* footer section starts here */
+
+.footer{
+    width: 100%;
+    height:60vh;
+}
+
+.footer li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.footer ul{
+    margin-top: 20px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.footer p{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.applink img{
+    width: 150px;
+    height: auto;
+}
+.apk{
+    position: absolute;
+    right: 10px;
+}
+.ios{
+    position:absolute;
+    right: 170px;
+}
+.footer-end{
+    margin-left: 40px;
+}
+
+.footer-end p{
+    font-size: 1.2rem;
+}
+
+.cookies{
+    width: 100%;
+    height: 100px;
+    background: #fff;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    bottom:0;
+}
+
+.cookies-p {
+    margin-right: 10px;
+    color: 
+}
+
+.cookies-p a{
+    color: blue;
+}
+
+.cookies button{
+    width: auto;
+    height: 40px;
+    border-radius: 10px;
+    display: block;
+    padding: 5px 20px;
+}
+
+
+@media (max-width: 768px){
+    .header{
+        width:100%;
+        height:auto;
+    }
+    .wallet{
+        height:auto;
+    }
+    .exchange{
+        height: auto;
+    }
+    .explorer{
+        height: auto;
+    }
+    .last-section{
+        height: auto;
+    }
+    .footer-end{
+        display: flex;
+        flex-direction: column;
+    }
+    .price-chart{
+        display:none;
+    }
+    .navbar ul{
+        text-align: center;
+    }
+    .rnav{
+        display: inline-block !important;
+    }
+    .navbutton{
+        display: none;
+    }
+    .header-div{
+    height: 100vh;
+    }
+}

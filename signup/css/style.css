@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+    font-weight: bold;
+    margin-bottom: 20px !important;
+    font-size: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    background: #0d3578 !important;
+}
+
+
+.navbar img{
+    width: 30px;
+    height:30px;
+}
+
+/* signup section starts here */
+
+.signup{
+    width:100%;
+    height:auto;
+    background: #0d3578;
+    text-align: center;
+}
+
+.heading{
+    width: 100%;
+    height: auto;
+    padding: 80px 100px 50px 100px;
+    text-align: center;
+}
+
+.heading h1,h3{
+    color: #e0e5ee;
+    font-weight: bold;
+}
+.box{
+    width: 420px;
+    height: auto;
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 20px;
+    margin-left: 30px;
+    
+}
+
+.box span{
+    color:grey;
+    margin-left: 10px;
+}
+
+.box img{
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+    padding-top: 25px;
+}
+
+.box h3{
+    color: #000;
+}
+
+.signup-form li{
+    display: flex;
+}
+
+.boxicon{
+    width: 48px;
+    line-height: 48px;
+    background: #0c6cf2;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+}
+
+button{
+    width: 100%;
+    height: 3.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    height: 2.3rem;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.a-link span{
+    color: #fff;
+}
+.secondbox{
+    margin-left: 30px;
+    width: 420px;
+    height: auto;
+}
+
+.secondbox li{
+    display: flex;
+}
+
+.highlighted-list{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px !important;
+}
+
+.secondbox i{
+    width: 48px;
+    line-height: 48px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.secondbox button{
+    width: 100%;
+    background: #000;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.footer-text{
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.footer-text p{
+    color: #e0e5ee;
+}
+
+.footer{
+    display: flex;
+    justify-content:center; 
+    height: 80px;
+    background: #0d3578;  
+    width: 100%; 
+    padding-top: 40px;
+}
+.footer P{
+    color:grey;
+    margin-left: 10px;
+} 
+select{
+    background: transparent;
+    justify-content: center;
+    height: 2rem;
+}
+
+
+@media(max-width: 768px){
+    .rbox{
+        width: 300px;
+        height: auto;
+        margin-top: 20px;
+    
+    }
+    .signup{
+        height: auto;
+    }
+
+    .footer-text{
+        width: 320px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .heading{
+        padding:10px;
+        margin-bottom: 25px;
+    }
+    i{
+        width: 38px;
+        line-height: 38px;
+        text-align: center;
+    }
+}
